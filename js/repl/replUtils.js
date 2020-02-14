@@ -155,6 +155,7 @@ export const persistedStateToEnvConfig = (
     node: envPresetDefaults.node.default,
     version: persistedState.version,
     builtIns: envPresetDefaults.builtIns.default,
+    corejs: "2",
   };
 
   decodeURIComponent(persistedState.targets)
